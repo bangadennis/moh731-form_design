@@ -1,12 +1,9 @@
-<!-- @author banga  -->
-<script>
+<!-- @author banga  --><script>
  $(function() {
     $( "#tabs-left" ).tabs();
   });
 </script>
-
-<style type="text/css">
-#tabs-left {
+<style type="text/css">#tabs-left {
 	position: relative;
 	padding-left: 18em;
 }
@@ -15,7 +12,7 @@
 	left: 0.25em;
 	top: 0.25em;
 	bottom: 0.25em;
-	width: 15em;
+	width: 24em;
 	padding: 0.2em 0 0.2em 0.2em;
 }
 #tabs-left .ui-tabs-nav li {
@@ -39,8 +36,9 @@
 }
 #tabs-left .ui-tabs-panel {
 	display:table;
+    margin-left:10em;
+    height:550px;
 }
-
 #tabs-left-vertical .ui-tabs-nav {
 	position: absolute;
 	width: 21em;
@@ -59,27 +57,41 @@
 </style>
 <div id="tabs-left">
 <ul>
-	<li><a href="#tabs-1">1.1 Testing</a></li>
-	<li><a href="#tabs-2">1.2 Positive Results</a></li>
-	<li><a href="#tabs-3">1.3 Linking to HIV Care</a></li>
+	<li><a href="#tabs-1">2.1 Antenatal and Delivery Contacts</a></li>
+	<li><a href="#tabs-2">2.2 Maternal HIV Testing </a></li>
+	<li><a href="#tabs-3">2.3 HIV Positive Results</a></li>
+	<li><a href="#tabs-4">2.4 Maternal HAART</a></li>
+	<li><a href="#tabs-5">2.5 Retention to PMTCT ARVs (Cohort)</a></li>
+	<li><a href="#tabs-6">2.6 Syphilis Screening</a></li>
+	<li><a href="#tabs-7">2.7 Family Planning at Postnatal</a></li>
+	<li><a href="#tabs-8">2.8 Male Partner HIV Status</a></li>
+	<li><a href="#tabs-9">2.9 Infant HIV Exposure Status at Penta 1</a></li>
+	<li><a href="#tabs-10">2.10 Infant Prophylaxis</a></li>
+	<li><a href="#tabs-11">2.11 Infant Testing/results of tests 3 months ago</a></li>
+	<li><a href="#tabs-12">2.12 Programme Outcomes</a></li>
+	<li><a href="#tabs-13">2.13 Retention of Baby-Mother Pairs</a></li>
+	<li><a href="#tabs-14">2.14 Infant Feeding</a></li>
+	<li><a href="#tabs-15">2.15 Adolescent Testing and results</a></li>
 </ul>
 
 <div id="tabs-1">
 <table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
 	<tbody>
-    <tr>
+		<tr>
 			<td colspan="4" style="background-color: rgb(0, 102, 204);">
-			<h2 style="text-align: center;"><span style="color:#FFFFFF;">1.2&nbsp;Positive Results</span></h2>
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.1 &nbsp;Antenatal and Delivery Contacts</span></h2>
 			</td>
 		</tr>
 		<tr>
-			<td>Positive_&lt;2</td>
-			<td colspan="3" rowspan="1" style="text-align: center;"></td>
+			<td>1st ANC Visits</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Delivery from HIV+ mothers</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
-
-<p>&nbsp;</p>
 </div>
 
 <div id="tabs-2">
@@ -87,18 +99,35 @@
 	<tbody>
 		<tr>
 			<td colspan="4" style="background-color: rgb(0, 102, 204);">
-			<h2 style="text-align: center;"><span style="color:#FFFFFF;">1.2&nbsp;Positive Results</span></h2>
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.2 Maternal HIV Testing&nbsp;</span></h2>
 			</td>
 		</tr>
 		<tr>
-			<td>Positive_&lt;2</td>
-			<td colspan="3" rowspan="1" style="text-align: center;"></td>
+			<td>Known Positive at 1st &nbsp;ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
 		</tr>
-
+		<tr>
+			<td>Initial test at ANC</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Initial test at L&amp;D</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Initial test at PNC_PNC&lt;=6wks</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Known HIV Status_Total</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Retesting_PNC&lt;= 6 weeks</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
 	</tbody>
 </table>
-
-<p>&nbsp;</p>
 </div>
 
 <div id="tabs-3">
@@ -106,16 +135,346 @@
 	<tbody>
 		<tr>
 			<td colspan="4" style="background-color: rgb(0, 102, 204);">
-			<h2 style="text-align: center;"><span style="color:#FFFFFF;">1.3 Linking to HIV Care</span></h2>
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.3 HIV Positive Results</span></h2>
 			</td>
 		</tr>
 		<tr>
-			<td>Linked_&lt;2 yrs</td>
-			<td colspan="3" rowspan="1" style="text-align: center;"></td>
+			<td>Known Positive at 1st &nbsp;ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive Results_ANC</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive Results _L&amp;D</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive Results_PNC&lt;=6wks</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Total Positive (Add 09, 10, 11 &amp;12)</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
 		</tr>
 	</tbody>
 </table>
+</div>
 
-<div>&nbsp;</div>
+<div id="tabs-4">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.4 &nbsp;Maternal HAART</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On HAART at 1st ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start HAART_ANC</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start HAART_L&amp;D</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start HAART_PNC&lt;=6wks</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On maternal HAART_Total&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-5">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.5 &nbsp;Retention to PMTCT ARVs (Cohort)</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On maternal HAART_12mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Net Cohort_12 mths</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-6">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.6 &nbsp;Syphilis Screening</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Syphilis Screened_1st ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Syphilis Screened_Positive</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Syphilis_Treated</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-7">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.7 &nbsp;Family Planning at Postnatal</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>HIV+ On Modern FP_at 6wks</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>HIV+_PNC Visits_at 6wks</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-8">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.8 &nbsp;Male Partner HIV Status</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Known Status_1st Contact</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Initial test at ANC_Male</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Initial test at PNC_Male</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Total Known Status_Male</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-9">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.9 &nbsp;Infant HIV Exposure Status at Penta 1</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Known Exposure_at Penta 1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Total Given Penta 1</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-10">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.10 &nbsp;Infant Prophylaxis</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Infant ARV Prophyl_ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Infant ARV Prophyl_L&amp;D</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Infant ARV Prophyl&lt;8wks_PNC</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Total ARV prophylaxis</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>HEI CTX/DDS start_&lt;2months</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-11">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.11 Infant Testing/results of tests 3 months ago</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Initial PCR &lt; 8wks</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Initial PCR_&gt;8wks -12 mths</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Initial PCR Test&lt;12mths_Total</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive PCR_&lt; 8wks</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive PCR&gt;8wks _12mths</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive Results&lt;12mths_Total</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-12">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.12 &nbsp;Programme Outcomes</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Infected_24mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Uninfected_24mths</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Unknown_Outcome</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Net cohort_HEI_24 months</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-13">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.13 &nbsp;Retention of Baby-Mother Pairs</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Mother-baby pairs_24mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Pair net cohort_24 months</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-14">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.14 &nbsp;Infant Feeding</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>EBF (at 6 months)&nbsp;</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>ERF (at 6 months</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>MF (at 6 months)</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>BF (12 months)&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Not BF (12 months)</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-15">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.15 &nbsp;Adolescent Testing and results</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>1st ANC KP adolescents (10-19)</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive result Adolescents_Total</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Started HAART adolescents_Total</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
 </div>
 </div>
