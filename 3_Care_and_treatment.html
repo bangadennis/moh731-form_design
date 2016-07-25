@@ -1,0 +1,571 @@
+<!-- @author banga  --><script>
+ $(function() {
+    $( "#tabs-left" ).tabs();
+  });
+</script>
+<style type="text/css">#tabs-left {
+	position: relative;
+	padding-left: 18em;
+}
+#tabs-left .ui-tabs-nav {
+	position: absolute;
+	left: 0.25em;
+	top: 0.25em;
+	bottom: 0.25em;
+	width: 24em;
+	padding: 0.2em 0 0.2em 0.2em;
+}
+#tabs-left .ui-tabs-nav li {
+	right: 1px;
+	width: 100%;
+	border-right: none;
+	border-bottom-width: 1px !important;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	border-radius: 4px 0px 0px 4px;
+	overflow: hidden;
+}
+#tabs-left .ui-tabs-nav li.ui-tabs-selected,
+#tabs-left .ui-tabs-nav li.ui-state-active {
+	border-right: 1px solid transparent;
+}
+#tabs-left .ui-tabs-nav li a {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+#tabs-left .ui-tabs-panel {
+	display:table;
+    margin-left:10em;
+    height:550px;
+}
+#tabs-left-vertical .ui-tabs-nav {
+	position: absolute;
+	width: 21em;
+	transform: translate(-100%,0%) rotate(-90deg);
+	transform-origin: 100% 0%;
+}
+#tabs-left-vertical .ui-tabs-nav li {
+	float: right;
+}
+#tabs-left-vertical .ui-tabs-panel {
+	padding-left: 3.5em;
+}
+#tabs-left-vertical .ui-tabs-panel {
+	display:table;
+}
+</style>
+<div id="tabs-left">
+<ul>
+	<li><a href="#tabs-1">3.1 Enrolment in Care</a></li>
+	<li><a href="#tabs-2">3.2 Currently in Care </a></li>
+	<li><a href="#tabs-3">3.3 Starting ART</a></li>
+	<li><a href="#tabs-4">3.4 Currently on ART ([All])</a></li>
+	<li><a href="#tabs-5">3.5 Retention on ART</a></li>
+	<li><a href="#tabs-6">3.6 TB Screening</a></li>
+	<li><a href="#tabs-7">3.7 Starting IPT</a></li>
+	<li><a href="#tabs-8">3.8 On CTX/Dapsone</a></li>
+	<li><a href="#tabs-9">3.9 TB in HIV Clinic</a></li>
+	<li><a href="#tabs-10">3.10 Community Distribution</a></li>
+	<li><a href="#tabs-11">3.11 Family planning &amp; CaCx screen</a></li>
+	<li><a href="#tabs-12">3.12 Nutrition and HIV</a></li>
+</ul>
+
+<div id="tabs-1">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="5" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.1 Enrolment in Care</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">Enrolled_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Enrolled_1-9</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Enrolled_10-14(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2"><span style="line-height: 20.8px;">Enrolled_10-14(F)</span></td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Enrolled_15-19(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">Enrolled_15-19(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Enrolled_20-24(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">Enrolled_20-24(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Enrolled_25+(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">Enrolled_25+(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="1"><strong>Enrolled_Total&nbsp;</strong></td>
+			<td colspan="3" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Enrolled in Care_KeyPop</td>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-2">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.2 Currently in Care</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">In Care_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">In Care_1-9</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>In Care_10-14(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">In Care_10-14(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>In Care_15-19(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">In Care_15-19(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>In Care_20-24(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">In Care_20-24(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>In Care_25+(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">In Care_25+(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="1"><strong>In care_Total &nbsp;</strong> &nbsp; &nbsp;</td>
+			<td colspan="3" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">In Care_KeyPop</td>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-3">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.3 Starting ART</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_1-9</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start ART_10-14(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">Start ART_10-14<span style="line-height: 20.8px;">(F)</span></td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start ART_15-19(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">Start ART_15-19(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start ART_20-24(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">Start ART_20-24(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start ART_25+(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">Start ART_25+(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="1"><strong>Start ART_Total&nbsp;</strong></td>
+			<td colspan="3" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_TB patient</td>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_Discordant</td>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_KeyPop</td>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-4">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.4 Currently on ART ([All])</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">On ART_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">On ART_1-9</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On ART_10-14(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">On ART_10-14<span style="line-height: 20.8px;">(F)</span></td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On ART_15-19(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">On ART_15-19(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On ART_20-24(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">On ART_20-24(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On ART_25+(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2">On ART_25+(F)</td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="1"><strong>On ART_Total</strong> &nbsp;</td>
+			<td colspan="3" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">On ART_KeyPop</td>
+			<td colspan="3">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-5">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.5 Retention on ART</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On ART _12mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Net Cohort_12mths&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Viral load &lt;1000_12mths</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Viral load result_12mths</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-6">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.6 TB Screening</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Screen for TB_&lt;1&nbsp;</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Screen for TB _1-9&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Screen for TB _10-14&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Screen for TB _15-19&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Screen for TB _20-24&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Screen for TB _25+&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Screen for TB_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-7">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.7 Starting IPT</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Start IPT_&lt;1&nbsp;</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start IPT _1-9&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start IPT _10-14&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start IPT _15-19&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start IPT _20-24&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start IPT _25+&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Start IPT_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-8">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.8 On CTX/Dapsone</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_1-9</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_10-14</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_15-19</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_20-24&nbsp;</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_25+</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_Total</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-9">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.9 TB in HIV Clinic</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>TB cases _New</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>TB Cases _KP</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>TB Cases Tested_HIV</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>TB_Known status</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>TB_New HIV Positive</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>TB_already on HAART</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>TB_start_HAART</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>TB_Total on HAART</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-10">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="5" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.10 Community Distribution</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Community ART current(M)</td>
+			<td>&nbsp;</td>
+			<td colspan="2"><span style="line-height: 20.8px;">Community ART current(F)</span></td>
+			<td style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-11">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.11 Family planning &amp; CaCx screen in HIV CCC</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Screen CaCx_New F18+</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>On modern FP _F18+</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Clinical visits_F18+</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-12">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.12 Nutrition and HIV</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Nutrition Assess_&lt;15</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Nutrition Assess _15+</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Nutrition Assess_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Malnourished_&lt;15</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Malnourished_15+</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>Malnourished_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>FBP Provided_&lt;15</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>FBP Provided_15+</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td><strong>FBP Provided_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
