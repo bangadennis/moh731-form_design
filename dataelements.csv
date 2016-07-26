@@ -1,0 +1,208 @@
+name,uid,code,shortName,description,formName,domainType,type,numberType,textType,aggregationType,categoryComboUid,url,zeroIsSignificant
+MOH 731 Tested_<1,,HV01-01,MOH 731 Tested_<1,Tested_<1,Tested_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_1-9,,HV01-02,MOH 731 Tested_1-9,Tested_1-9,Tested_1-9,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_10-14(M) ,,HV01-03,MOH 731 Tested_10-14(M) ,Tested_10-14(M) ,Tested_10-14(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_15-19(M) ,,HV01-05,MOH 731 Tested_15-19(M) ,Tested_15-19(M) ,Tested_15-19(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_20-24(M) ,,HV01-07,MOH 731 Tested_20-24(M) ,Tested_20-24(M) ,Tested_20-24(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_25+(M) ,,HV01-09,MOH 731 Tested_25+(M) ,Tested_25+(M) ,Tested_25+(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_10-14(F),,HV01-04,MOH 731 Tested_10-14(F),Tested_10-14(F),Tested_10-14(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_15-19(F),,HV01-06,MOH 731 Tested_15-19(F),Tested_15-19(F),Tested_15-19(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_20-24(F),,HV01-08,MOH 731 Tested_20-24(F),Tested_20-24(F),Tested_20-24(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_25+(F),,HV01-10,MOH 731 Tested_25+(F),Tested_25+(F),Tested_25+(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_Facility,,HV01-12,MOH 731 Tested_Facility,Tested_Facility,Tested_Facility,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_Community,,HV01-13,MOH 731 Tested_Community,Tested_Community,Tested_Community,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_New,,HV01-14,MOH 731 Tested_New,Tested_New,Tested_New,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_Repeat,,HV01-15,MOH 731 Tested_Repeat,Tested_Repeat,Tested_Repeat,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_Couples,,HV01-16,MOH 731 Tested_Couples,Tested_Couples,Tested_Couples,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Tested_KeyPop,,HV01-17,MOH 731 Tested_KeyPop,Tested_KeyPop,Tested_KeyPop,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_<1,,HV01-18,MOH 731  Positive_<1, Positive_<1, Positive_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_1-9,,HV01-19,MOH 731  Positive_1-9, Positive_1-9, Positive_1-9,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_10-14(M) ,,HV01-20,MOH 731  Positive_10-14(M) , Positive_10-14(M) , Positive_10-14(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_15-19(M) ,,HV01-22,MOH 731  Positive_15-19(M) , Positive_15-19(M) , Positive_15-19(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_20-24(M) ,,HV01-24,MOH 731  Positive_20-24(M) , Positive_20-24(M) , Positive_20-24(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_25+(M) ,,HV01-26,MOH 731  Positive_25+(M) , Positive_25+(M) , Positive_25+(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_10-14(F),,HV01-21,MOH 731  Positive_10-14(F), Positive_10-14(F), Positive_10-14(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_15-19(F),,HV01-23,MOH 731  Positive_15-19(F), Positive_15-19(F), Positive_15-19(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_20-24(F),,HV01-25,MOH 731  Positive_20-24(F), Positive_20-24(F), Positive_20-24(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_25+(F),,HV01-27,MOH 731  Positive_25+(F), Positive_25+(F), Positive_25+(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Negative_Total,,HV01-29,MOH 731  Negative_Total, Negative_Total, Negative_Total,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Discordant,,HV01-30,MOH 731  Discordant, Discordant, Discordant,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Positive_KeyPop,,HV01-31,MOH 731  Positive_KeyPop, Positive_KeyPop, Positive_KeyPop,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Linked_<1 yrs,,HV01-32,MOH 731  Linked_<1 yrs, Linked_<1 yrs, Linked_<1 yrs,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Linked_1-9 yrs,,HV01-33,MOH 731  Linked_1-9 yrs, Linked_1-9 yrs, Linked_1-9 yrs,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Linked_10-14,,HV01-34,MOH 731  Linked_10-14, Linked_10-14, Linked_10-14,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Linked_15-19,,HV01-35,MOH 731  Linked_15-19, Linked_15-19, Linked_15-19,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Linked_20-24,,HV01-36,MOH 731  Linked_20-24, Linked_20-24, Linked_20-24,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731  Linked_25+,,HV01-37,MOH 731  Linked_25+, Linked_25+, Linked_25+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Prep Eligible_New,,HV01-39,MOH 731 Prep Eligible_New,Prep Eligible_New,Prep Eligible_New,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 PreP Start_New,,HV01-40,MOH 731 PreP Start_New,PreP Start_New,PreP Start_New,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Prep_Current,,HV01-41,MOH 731 Prep_Current,Prep_Current,Prep_Current,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Prep_stopped,,HV01-42,MOH 731 Prep_stopped,Prep_stopped,Prep_stopped,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 1st ANC Visits,,HV02-01,MOH 731 1st ANC Visits,1st ANC Visits,1st ANC Visits,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Delivery from HIV+ mothers,,HV02-02,MOH 731 Delivery from HIV+ mothers,Delivery from HIV+ mothers,Delivery from HIV+ mothers,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Known Positive at 1st  ANC(HV02-03),,HV02-03,MOH 731 Known Positive at 1st  ANC(HV02-03),Known Positive at 1st  ANC(HV02-03),Known Positive at 1st  ANC(HV02-03),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial test at ANC,,HV02-04,MOH 731 Initial test at ANC,Initial test at ANC,Initial test at ANC,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial test at L&D,,HV02-05,MOH 731 Initial test at L&D,Initial test at L&D,Initial test at L&D,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial test at PNC_PNC<=6wks,,HV02-06,MOH 731 Initial test at PNC_PNC<=6wks,Initial test at PNC_PNC<=6wks,Initial test at PNC_PNC<=6wks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Known HIV Status_Total,,HV02-07,MOH 731 Known HIV Status_Total,Known HIV Status_Total,Known HIV Status_Total,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Retesting_PNC<= 6 weeks,,HV02-08,MOH 731 Retesting_PNC<= 6 weeks,Retesting_PNC<= 6 weeks,Retesting_PNC<= 6 weeks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Known Positive at 1st  ANC(HV02-09),,HV02-09,MOH 731 Known Positive at 1st  ANC(HV02-09),Known Positive at 1st  ANC(HV02-09),Known Positive at 1st  ANC(HV02-09),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Positive Results_ANC,,HV02-10,MOH 731 Positive Results_ANC,Positive Results_ANC,Positive Results_ANC,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Positive Results _L&D,,HV02-11,MOH 731 Positive Results _L&D,Positive Results _L&D,Positive Results _L&D,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Positive Results_PNC<=6wks,,HV02-12,MOH 731 Positive Results_PNC<=6wks,Positive Results_PNC<=6wks,Positive Results_PNC<=6wks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On HAART at 1st ANC,,HV02-14,MOH 731 On HAART at 1st ANC,On HAART at 1st ANC,On HAART at 1st ANC,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start HAART_ANC,,HV02-15,MOH 731 Start HAART_ANC,Start HAART_ANC,Start HAART_ANC,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start HAART_L&D,,HV02-16,MOH 731 Start HAART_L&D,Start HAART_L&D,Start HAART_L&D,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start HAART_PNC<=6wks,,HV02-17,MOH 731 Start HAART_PNC<=6wks,Start HAART_PNC<=6wks,Start HAART_PNC<=6wks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On maternal HAART_Total ,,HV02-18,MOH 731 On maternal HAART_Total ,On maternal HAART_Total ,On maternal HAART_Total ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On maternal HAART_12mths,,HV02-19,MOH 731 On maternal HAART_12mths,On maternal HAART_12mths,On maternal HAART_12mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Net Cohort_12 mths,,HV02-20,MOH 731 Net Cohort_12 mths,Net Cohort_12 mths,Net Cohort_12 mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Syphilis Screened_1st ANC,,HV02-21,MOH 731 Syphilis Screened_1st ANC,Syphilis Screened_1st ANC,Syphilis Screened_1st ANC,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Syphilis Screened_Positive,,HV02-22,MOH 731 Syphilis Screened_Positive,Syphilis Screened_Positive,Syphilis Screened_Positive,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Syphilis_Treated,,HV02-23,MOH 731 Syphilis_Treated,Syphilis_Treated,Syphilis_Treated,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 HIV+ On Modern FP_at 6wks,,HV02-24,MOH 731 HIV+ On Modern FP_at 6wks,HIV+ On Modern FP_at 6wks,HIV+ On Modern FP_at 6wks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 HIV+_PNC Visits_at 6wks,,HV02-25,MOH 731 HIV+_PNC Visits_at 6wks,HIV+_PNC Visits_at 6wks,HIV+_PNC Visits_at 6wks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Known Status_1st Contact,,HV02-26,MOH 731 Known Status_1st Contact,Known Status_1st Contact,Known Status_1st Contact,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial test at ANC_Male,,HV02-27,MOH 731 Initial test at ANC_Male,Initial test at ANC_Male,Initial test at ANC_Male,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial test at PNC_Male,,HV02-28,MOH 731 Initial test at PNC_Male,Initial test at PNC_Male,Initial test at PNC_Male,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Total Known Status_Male,,HV02-29,MOH 731 Total Known Status_Male,Total Known Status_Male,Total Known Status_Male,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Known Exposure_at Penta 1,,HV02-30,MOH 731 Known Exposure_at Penta 1,Known Exposure_at Penta 1,Known Exposure_at Penta 1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Total Given Penta 1,,HV02-31,MOH 731 Total Given Penta 1,Total Given Penta 1,Total Given Penta 1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Infant ARV Prophyl_ANC,,HV02-32,MOH 731 Infant ARV Prophyl_ANC,Infant ARV Prophyl_ANC,Infant ARV Prophyl_ANC,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Infant ARV Prophyl_L&D,,HV02-33,MOH 731 Infant ARV Prophyl_L&D,Infant ARV Prophyl_L&D,Infant ARV Prophyl_L&D,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Infant ARV Prophyl<8wks_PNC,,HV02-34,MOH 731 Infant ARV Prophyl<8wks_PNC,Infant ARV Prophyl<8wks_PNC,Infant ARV Prophyl<8wks_PNC,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Total ARV prophylaxis,,HV02-35,MOH 731 Total ARV prophylaxis,Total ARV prophylaxis,Total ARV prophylaxis,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 HEI CTX/DDS start_<2months,,HV02-36,MOH 731 HEI CTX/DDS start_<2months,HEI CTX/DDS start_<2months,HEI CTX/DDS start_<2months,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial PCR < 8wks,,HV02-37,MOH 731 Initial PCR < 8wks,Initial PCR < 8wks,Initial PCR < 8wks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial PCR_>8wks -12 mths,,HV02-38,MOH 731 Initial PCR_>8wks -12 mths,Initial PCR_>8wks -12 mths,Initial PCR_>8wks -12 mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Initial PCR Test<12mths_Total,,HV02-39,MOH 731 Initial PCR Test<12mths_Total,Initial PCR Test<12mths_Total,Initial PCR Test<12mths_Total,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Positive PCR_< 8wks,,HV02-40,MOH 731 Positive PCR_< 8wks,Positive PCR_< 8wks,Positive PCR_< 8wks,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Positive PCR>8wks _12mths,,HV02-41,MOH 731 Positive PCR>8wks _12mths,Positive PCR>8wks _12mths,Positive PCR>8wks _12mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Positive Results<12mths_Total,,HV02-42,MOH 731 Positive Results<12mths_Total,Positive Results<12mths_Total,Positive Results<12mths_Total,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Infected_24mths,,HV02-43,MOH 731 Infected_24mths,Infected_24mths,Infected_24mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Uninfected_24mths,,HV02-44,MOH 731 Uninfected_24mths,Uninfected_24mths,Uninfected_24mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Unknown_Outcome,,HV02-45,MOH 731 Unknown_Outcome,Unknown_Outcome,Unknown_Outcome,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Net cohort_HEI_24 months,,HV02-46,MOH 731 Net cohort_HEI_24 months,Net cohort_HEI_24 months,Net cohort_HEI_24 months,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Mother-baby pairs_24mths,,HV02-47,MOH 731 Mother-baby pairs_24mths,Mother-baby pairs_24mths,Mother-baby pairs_24mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Pair net cohort_24 months,,HV02-48,MOH 731 Pair net cohort_24 months,Pair net cohort_24 months,Pair net cohort_24 months,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 EBF (at 6 months) ,,HV02-49,MOH 731 EBF (at 6 months) ,EBF (at 6 months) ,EBF (at 6 months) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 ERF (at 6 months) ,,HV02-50,MOH 731 ERF (at 6 months) ,ERF (at 6 months) ,ERF (at 6 months) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 MF (at 6 months),,HV02-51,MOH 731 MF (at 6 months),MF (at 6 months),MF (at 6 months),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 BF (12 months) ,,HV02-52,MOH 731 BF (12 months) ,BF (12 months) ,BF (12 months) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Not BF (12 months),,HV02-53,MOH 731 Not BF (12 months),Not BF (12 months),Not BF (12 months),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 1st ANC KP adolescents (10-19),,HV02-54,MOH 731 1st ANC KP adolescents (10-19),1st ANC KP adolescents (10-19),1st ANC KP adolescents (10-19),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Positive result Adolescents_Total,,HV02-55,MOH 731 Positive result Adolescents_Total,Positive result Adolescents_Total,Positive result Adolescents_Total,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Started HAART adolescents_Total,,HV02-56,MOH 731 Started HAART adolescents_Total,Started HAART adolescents_Total,Started HAART adolescents_Total,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_<1,,HV03-001,MOH 731 Enrolled_<1,Enrolled_<1,Enrolled_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_1-9,,HV03-002,MOH 731 Enrolled_1-9,Enrolled_1-9,Enrolled_1-9,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_10-14(M) ,,HV03-003,MOH 731 Enrolled_10-14(M) ,Enrolled_10-14(M) ,Enrolled_10-14(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_15-19(M) ,,HV03-005,MOH 731 Enrolled_15-19(M) ,Enrolled_15-19(M) ,Enrolled_15-19(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_20-24(M) ,,HV03-007,MOH 731 Enrolled_20-24(M) ,Enrolled_20-24(M) ,Enrolled_20-24(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_25+(M) ,,HV03-009,MOH 731 Enrolled_25+(M) ,Enrolled_25+(M) ,Enrolled_25+(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_10-14(F),,HV03-004,MOH 731 Enrolled_10-14(F),Enrolled_10-14(F),Enrolled_10-14(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_15-19(F),,HV03-006,MOH 731 Enrolled_15-19(F),Enrolled_15-19(F),Enrolled_15-19(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_20-24(F),,HV03-008,MOH 731 Enrolled_20-24(F),Enrolled_20-24(F),Enrolled_20-24(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled_25+(F),,HV03-010,MOH 731 Enrolled_25+(F),Enrolled_25+(F),Enrolled_25+(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Enrolled in Care_KeyPop,,HV03-012,MOH 731 Enrolled in Care_KeyPop,Enrolled in Care_KeyPop,Enrolled in Care_KeyPop,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_<1,,HV03-013,MOH 731 In Care_<1,In Care_<1,In Care_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_1-9,,HV03-014,MOH 731 In Care_1-9,In Care_1-9,In Care_1-9,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_10-14(M) ,,HV03-015,MOH 731 In Care_10-14(M) ,In Care_10-14(M) ,In Care_10-14(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_15-19(M) ,,HV03-017,MOH 731 In Care_15-19(M) ,In Care_15-19(M) ,In Care_15-19(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_20-24(M) ,,HV03-019,MOH 731 In Care_20-24(M) ,In Care_20-24(M) ,In Care_20-24(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_25+(M) ,,HV03-021,MOH 731 In Care_25+(M) ,In Care_25+(M) ,In Care_25+(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_10-14(F),,HV03-016,MOH 731 In Care_10-14(F),In Care_10-14(F),In Care_10-14(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_15-19(F),,HV03-018,MOH 731 In Care_15-19(F),In Care_15-19(F),In Care_15-19(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_20-24(F),,HV03-020,MOH 731 In Care_20-24(F),In Care_20-24(F),In Care_20-24(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_25+(F),,HV03-022,MOH 731 In Care_25+(F),In Care_25+(F),In Care_25+(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 In Care_KeyPop,,HV03-024,MOH 731 In Care_KeyPop,In Care_KeyPop,In Care_KeyPop,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_<1,,HV03-025,MOH 731 Start ART_<1,Start ART_<1,Start ART_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_1-9,,HV03-026,MOH 731 Start ART_1-9,Start ART_1-9,Start ART_1-9,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_10-14(M) ,,HV03-027,MOH 731 Start ART_10-14(M) ,Start ART_10-14(M) ,Start ART_10-14(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_15-19(M) ,,HV03-029,MOH 731 Start ART_15-19(M) ,Start ART_15-19(M) ,Start ART_15-19(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_20-24(M) ,,HV03-031,MOH 731 Start ART_20-24(M) ,Start ART_20-24(M) ,Start ART_20-24(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_25+(M) ,,HV03-033,MOH 731 Start ART_25+(M) ,Start ART_25+(M) ,Start ART_25+(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_10-14(F),,HV03-028,MOH 731 Start ART_10-14(F),Start ART_10-14(F),Start ART_10-14(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_15-19(F),,HV03-030,MOH 731 Start ART_15-19(F),Start ART_15-19(F),Start ART_15-19(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_20-24(F),,HV03-032,MOH 731 Start ART_20-24(F),Start ART_20-24(F),Start ART_20-24(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_25+(F),,HV03-034,MOH 731 Start ART_25+(F),Start ART_25+(F),Start ART_25+(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_TB patient,,HV03-036,MOH 731 Start ART_TB patient,Start ART_TB patient,Start ART_TB patient,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_Discordant,,HV03-037,MOH 731 Start ART_Discordant,Start ART_Discordant,Start ART_Discordant,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start ART_KeyPop,,HV03-038,MOH 731 Start ART_KeyPop,Start ART_KeyPop,Start ART_KeyPop,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_<1,,HV03-039,MOH 731 On ART_<1,On ART_<1,On ART_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_1-9,,HV03-040,MOH 731 On ART_1-9,On ART_1-9,On ART_1-9,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_10-14(M) ,,HV03-041,MOH 731 On ART_10-14(M) ,On ART_10-14(M) ,On ART_10-14(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_15-19(M) ,,HV03-043,MOH 731 On ART_15-19(M) ,On ART_15-19(M) ,On ART_15-19(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_20-24(M) ,,HV03-045,MOH 731 On ART_20-24(M) ,On ART_20-24(M) ,On ART_20-24(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_25+(M) ,,HV03-047,MOH 731 On ART_25+(M) ,On ART_25+(M) ,On ART_25+(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_10-14(F),,HV03-042,MOH 731 On ART_10-14(F),On ART_10-14(F),On ART_10-14(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_15-19(F),,HV03-044,MOH 731 On ART_15-19(F),On ART_15-19(F),On ART_15-19(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_20-24(F),,HV03-046,MOH 731 On ART_20-24(F),On ART_20-24(F),On ART_20-24(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_25+(F),,HV03-048,MOH 731 On ART_25+(F),On ART_25+(F),On ART_25+(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART_KeyPop,,HV03-050,MOH 731 On ART_KeyPop,On ART_KeyPop,On ART_KeyPop,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On ART _12mths,,HV03-051,MOH 731 On ART _12mths,On ART _12mths,On ART _12mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Net Cohort_12mths ,,HV03-052,MOH 731 Net Cohort_12mths ,Net Cohort_12mths ,Net Cohort_12mths ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Viral load <1000_12mths,,HV03-053,MOH 731 Viral load <1000_12mths,Viral load <1000_12mths,Viral load <1000_12mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Viral load result_12mths,,HV03-054,MOH 731 Viral load result_12mths,Viral load result_12mths,Viral load result_12mths,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Screen for TB_<1 ,,HV03-055,MOH 731 Screen for TB_<1 ,Screen for TB_<1 ,Screen for TB_<1 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Screen for TB _1-9 ,,HV03-056,MOH 731 Screen for TB _1-9 ,Screen for TB _1-9 ,Screen for TB _1-9 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Screen for TB _10-14 ,,HV03-057,MOH 731 Screen for TB _10-14 ,Screen for TB _10-14 ,Screen for TB _10-14 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Screen for TB _15-19 ,,HV03-058,MOH 731 Screen for TB _15-19 ,Screen for TB _15-19 ,Screen for TB _15-19 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Screen for TB _20-24 ,,HV03-059,MOH 731 Screen for TB _20-24 ,Screen for TB _20-24 ,Screen for TB _20-24 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Screen for TB _25+ ,,HV03-060,MOH 731 Screen for TB _25+ ,Screen for TB _25+ ,Screen for TB _25+ ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start IPT_<1 ,,HV03-062,MOH 731 Start IPT_<1 ,Start IPT_<1 ,Start IPT_<1 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start IPT _1-9 ,,HV03-063,MOH 731 Start IPT _1-9 ,Start IPT _1-9 ,Start IPT _1-9 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start IPT _10-14 ,,HV03-064,MOH 731 Start IPT _10-14 ,Start IPT _10-14 ,Start IPT _10-14 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start IPT _15-19 ,,HV03-065,MOH 731 Start IPT _15-19 ,Start IPT _15-19 ,Start IPT _15-19 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start IPT _20-24 ,,HV03-066,MOH 731 Start IPT _20-24 ,Start IPT _20-24 ,Start IPT _20-24 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Start IPT _25+ ,,HV03-067,MOH 731 Start IPT _25+ ,Start IPT _25+ ,Start IPT _25+ ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On CTX/DDS_<1,,HV03-069,MOH 731 On CTX/DDS_<1,On CTX/DDS_<1,On CTX/DDS_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On CTX/DDS_1-9,,HV03-070,MOH 731 On CTX/DDS_1-9,On CTX/DDS_1-9,On CTX/DDS_1-9,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On CTX/DDS_10-14,,HV03-071,MOH 731 On CTX/DDS_10-14,On CTX/DDS_10-14,On CTX/DDS_10-14,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On CTX/DDS_15-19,,HV03-072,MOH 731 On CTX/DDS_15-19,On CTX/DDS_15-19,On CTX/DDS_15-19,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On CTX/DDS_20-24 ,,HV03-073,MOH 731 On CTX/DDS_20-24 ,On CTX/DDS_20-24 ,On CTX/DDS_20-24 ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On CTX/DDS_25+,,HV03-074,MOH 731 On CTX/DDS_25+,On CTX/DDS_25+,On CTX/DDS_25+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 TB cases _New,,HV03-076,MOH 731 TB cases _New,TB cases _New,TB cases _New,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 TB Cases _KP,,HV03-077,MOH 731 TB Cases _KP,TB Cases _KP,TB Cases _KP,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 TB Cases Tested_HIV,,HV03-078,MOH 731 TB Cases Tested_HIV,TB Cases Tested_HIV,TB Cases Tested_HIV,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 TB_Known status,,HV03-079,MOH 731 TB_Known status,TB_Known status,TB_Known status,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 TB_New HIV Positive,,HV03-080,MOH 731 TB_New HIV Positive,TB_New HIV Positive,TB_New HIV Positive,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 TB_already on HAART,,HV03-081,MOH 731 TB_already on HAART,TB_already on HAART,TB_already on HAART,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 TB_start_HAART,,HV03-082,MOH 731 TB_start_HAART,TB_start_HAART,TB_start_HAART,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Community ART current(M) ,,HV03-084,MOH 731 Community ART current(M) ,Community ART current(M) ,Community ART current(M) ,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Community ART current(F),,HV03-085,MOH 731 Community ART current(F),Community ART current(F),Community ART current(F),AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Screen CaCx_New F18+,,HV03-086,MOH 731 Screen CaCx_New F18+,Screen CaCx_New F18+,Screen CaCx_New F18+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 On modern FP _F18+,,HV03-087,MOH 731 On modern FP _F18+,On modern FP _F18+,On modern FP _F18+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Clinical visits_F18+,,HV03-088,MOH 731 Clinical visits_F18+,Clinical visits_F18+,Clinical visits_F18+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Nutrition Assess_<15,,HV03-089,MOH 731 Nutrition Assess_<15,Nutrition Assess_<15,Nutrition Assess_<15,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Nutrition Assess _15+,,HV03-090,MOH 731 Nutrition Assess _15+,Nutrition Assess _15+,Nutrition Assess _15+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Malnourished_<15,,HV03-092,MOH 731 Malnourished_<15,Malnourished_<15,Malnourished_<15,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Malnourished_15+,,HV03-093,MOH 731 Malnourished_15+,Malnourished_15+,Malnourished_15+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 FBP Provided_<15,,HV03-095,MOH 731 FBP Provided_<15,FBP Provided_<15,FBP Provided_<15,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 FBP Provided_15+,,HV03-096,MOH 731 FBP Provided_15+,FBP Provided_15+,FBP Provided_15+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_<1,,HV04-01,MOH 731 Circumcised_<1,Circumcised_<1,Circumcised_<1,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_1-9yr,,HV04-02,MOH 731 Circumcised_1-9yr,Circumcised_1-9yr,Circumcised_1-9yr,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_10-14,,HV04-03,MOH 731 Circumcised_10-14,Circumcised_10-14,Circumcised_10-14,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_15-19,,HV04-04,MOH 731 Circumcised_15-19,Circumcised_15-19,Circumcised_15-19,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_20-24,,HV04-05,MOH 731 Circumcised_20-24,Circumcised_20-24,Circumcised_20-24,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_25-49,,HV04-06,MOH 731 Circumcised_25-49,Circumcised_25-49,Circumcised_25-49,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_50+,,HV04-07,MOH 731 Circumcised_50+,Circumcised_50+,Circumcised_50+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_ HIV+,,HV04-09,MOH 731 Circumcised_ HIV+,Circumcised_ HIV+,Circumcised_ HIV+,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_ HIV-,,HV04-10,MOH 731 Circumcised_ HIV-,Circumcised_ HIV-,Circumcised_ HIV-,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Circumcised_HIV NK,,HV04-11,MOH 731 Circumcised_HIV NK,Circumcised_HIV NK,Circumcised_HIV NK,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Surgical,,HV04-12,MOH 731 Surgical,Surgical,Surgical,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Devices,,HV04-13,MOH 731 Devices,Devices,Devices,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 AE_During_Moderate,,HV04-14,MOH 731 AE_During_Moderate,AE_During_Moderate,AE_During_Moderate,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 AE_During_Severe,,HV04-15,MOH 731 AE_During_Severe,AE_During_Severe,AE_During_Severe,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 AE_Post_Moderate,,HV04-16,MOH 731 AE_Post_Moderate,AE_Post_Moderate,AE_Post_Moderate,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 AE_Post_Severe,,HV04-17,MOH 731 AE_Post_Severe,AE_Post_Severe,AE_Post_Severe,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Follow up visit <14d,,HV04-18,MOH 731 Follow up visit <14d,Follow up visit <14d,Follow up visit <14d,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Exposed_Occupational,,HV05-01,MOH 731 Exposed_Occupational,Exposed_Occupational,Exposed_Occupational,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 Exposed_Other,,HV05-02,MOH 731 Exposed_Other,Exposed_Other,Exposed_Other,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 PEP_Occupational,,HV05-05,MOH 731 PEP_Occupational,PEP_Occupational,PEP_Occupational,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 PEP_Other,,HV05-06,MOH 731 PEP_Other,PEP_Other,PEP_Other,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 KeyPop_Minimum package,,HV06-01,MOH 731 KeyPop_Minimum package,KeyPop_Minimum package,KeyPop_Minimum package,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 KeyPop offered Outreach,,HV06-02,MOH 731 KeyPop offered Outreach,KeyPop offered Outreach,KeyPop offered Outreach,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 KeyPop screened for STI,,HV06-03,MOH 731 KeyPop screened for STI,KeyPop screened for STI,KeyPop screened for STI,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 KeyPop with STIs,,HV06-04,MOH 731 KeyPop with STIs,KeyPop with STIs,KeyPop with STIs,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 KeyPop on MAT,,HV06-01,MOH 731 KeyPop on MAT,KeyPop on MAT,KeyPop on MAT,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
+MOH 731 KeyPop who are PWID,,HV06-02,MOH 731 KeyPop who are PWID,KeyPop who are PWID,KeyPop who are PWID,AGGREGATE,int,zeroPositiveInt,,sum,14,,FALSE
