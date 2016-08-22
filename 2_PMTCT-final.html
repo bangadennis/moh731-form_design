@@ -1,0 +1,492 @@
+<!-- @author banga  --><script>
+ $(function() {
+    $( "#tabs-left" ).tabs();
+  });
+</script>
+<style type="text/css">#tabs-left {
+	position: relative;
+	padding-left: 18em;
+}
+#tabs-left .ui-tabs-nav {
+	position: absolute;
+	left: 0.25em;
+	top: 0.25em;
+	bottom: 0.25em;
+	width: 24em;
+	padding: 0.2em 0 0.2em 0.2em;
+}
+#tabs-left .ui-tabs-nav li {
+	right: 1px;
+	width: 100%;
+	border-right: none;
+	border-bottom-width: 1px !important;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	border-radius: 4px 0px 0px 4px;
+	overflow: hidden;
+}
+#tabs-left .ui-tabs-nav li.ui-tabs-selected,
+#tabs-left .ui-tabs-nav li.ui-state-active {
+	border-right: 1px solid transparent;
+}
+#tabs-left .ui-tabs-nav li a {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+#tabs-left .ui-tabs-panel {
+	display:table;
+    margin-left:10em;
+    height:550px;
+}
+#tabs-left-vertical .ui-tabs-nav {
+	position: absolute;
+	width: 21em;
+	transform: translate(-100%,0%) rotate(-90deg);
+	transform-origin: 100% 0%;
+}
+#tabs-left-vertical .ui-tabs-nav li {
+	float: right;
+}
+#tabs-left-vertical .ui-tabs-panel {
+	padding-left: 3.5em;
+}
+#tabs-left-vertical .ui-tabs-panel {
+	display:table;
+}
+</style>
+<div id="tabs-left">
+<ul>
+	<li><a href="#tabs-1">2.1 Antenatal and Delivery Contacts</a></li>
+	<li><a href="#tabs-2">2.2 Maternal HIV Testing </a></li>
+	<li><a href="#tabs-3">2.3 HIV Positive Results</a></li>
+	<li><a href="#tabs-4">2.4 Maternal HAART</a></li>
+	<li><a href="#tabs-5">2.5 Retention to PMTCT ARVs (Cohort)</a></li>
+	<li><a href="#tabs-6">2.6 Syphilis Screening</a></li>
+	<li><a href="#tabs-7">2.7 Family Planning at Postnatal</a></li>
+	<li><a href="#tabs-8">2.8 Male Partner HIV Status</a></li>
+	<li><a href="#tabs-9">2.9 Infant HIV Exposure Status at Penta 1</a></li>
+	<li><a href="#tabs-10">2.10 Infant Prophylaxis</a></li>
+	<li><a href="#tabs-11">2.11 Adolescent Testing and results</a></li>
+	<li><a href="#tabs-12">2.12 Infant Testing/results of tests 3 months ago</a></li>
+	<li><a href="#tabs-13">2.13 Programme Outcomes</a></li>
+	<li><a href="#tabs-14">2.14 Retention of Baby-Mother Pairs</a></li>
+	<li><a href="#tabs-15">2.15 Infant Feeding</a></li>
+</ul>
+
+<div id="tabs-1">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.1 &nbsp;Antenatal and Delivery Contacts</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>1st ANC Visits</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="x9TpsEb7c2H-NhSoXUMPK2K-val" title="x9TpsEb7c2H - MOH 731 1st ANC Visits - NhSoXUMPK2K - (default) - int" value="[ MOH 731 1st ANC Visits (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Delivery from HIV+ mothers</td>
+			<td colspan="3" style="text-align: center;"><input id="aOXZJonvyYq-NhSoXUMPK2K-val" title="aOXZJonvyYq - MOH 731 Delivery from HIV+ mothers - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Delivery from HIV+ mothers (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-2">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.2 Maternal HIV Testing&nbsp;</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Known Positive at 1st &nbsp;ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="ToP3iblIJYe-NhSoXUMPK2K-val" title="ToP3iblIJYe - MOH 731 Known Positive at 1st  ANC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Known Positive at 1st  ANC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Initial test at ANC</td>
+			<td colspan="3" style="text-align: center;"><input id="TCgcI8qxuC6-NhSoXUMPK2K-val" title="TCgcI8qxuC6 - MOH 731 Initial test at ANC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial test at ANC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Initial test at L&amp;D</td>
+			<td colspan="3" style="text-align: center;"><input id="Olv4nTX8oH8-NhSoXUMPK2K-val" title="Olv4nTX8oH8 - MOH 731 Initial test at L&amp;D - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial test at L&amp;D (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Initial test at PNC_PNC&lt;=6wks</td>
+			<td colspan="3" style="text-align: center;"><input id="h0JL63i0Ymj-NhSoXUMPK2K-val" title="h0JL63i0Ymj - MOH 731 Initial test at PNC_PNC&lt;=6wks - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial test at PNC_PNC&lt;=6wks (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Known HIV Status_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Retesting_PNC&lt;= 6 weeks</td>
+			<td colspan="3" style="text-align: center;"><input id="J7gygBh0hDi-NhSoXUMPK2K-val" title="J7gygBh0hDi - MOH 731 Retesting_PNC&lt;= 6 weeks - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Retesting_PNC&lt;= 6 weeks (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-3">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.3 HIV Positive Results</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Known Positive at 1st &nbsp;ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center; background-color: rgb(153, 153, 153);">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive Results_ANC</td>
+			<td colspan="3" style="text-align: center;"><input id="zqIczuJ5Mrv-NhSoXUMPK2K-val" title="zqIczuJ5Mrv - MOH 731 Positive Results_ANC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Positive Results_ANC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Positive Results _L&amp;D</td>
+			<td colspan="3" style="text-align: center;"><input id="m1Kd2E4nZO0-NhSoXUMPK2K-val" title="m1Kd2E4nZO0 - MOH 731 Positive Results _L&amp;D - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Positive Results _L&amp;D (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Positive Results_PNC&lt;=6wks</td>
+			<td colspan="3" style="text-align: center;"><input id="pAxVtPMKy4f-NhSoXUMPK2K-val" title="pAxVtPMKy4f - MOH 731 Positive Results_PNC&lt;=6wks - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Positive Results_PNC&lt;=6wks (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Total Positive (Add 09, 10, 11 &amp;12)</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-4">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.4 &nbsp;Maternal HAART</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On HAART at 1st ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="okAk3jrYldV-NhSoXUMPK2K-val" title="okAk3jrYldV - MOH 731 On HAART at 1st ANC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On HAART at 1st ANC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start HAART_ANC</td>
+			<td colspan="3" style="text-align: center;"><input id="PeGSJpOJQPr-NhSoXUMPK2K-val" title="PeGSJpOJQPr - MOH 731 Start HAART_ANC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start HAART_ANC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start HAART_L&amp;D</td>
+			<td colspan="3" style="text-align: center;"><input id="qeiTXrRO6s4-NhSoXUMPK2K-val" title="qeiTXrRO6s4 - MOH 731 Start HAART_L&amp;D - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start HAART_L&amp;D (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start HAART_PNC&lt;=6wks</td>
+			<td colspan="3" style="text-align: center;"><input id="ACirZ5fw3xg-NhSoXUMPK2K-val" title="ACirZ5fw3xg - MOH 731 Start HAART_PNC&lt;=6wks - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start HAART_PNC&lt;=6wks (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>On maternal HAART_Total&nbsp;</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Start HAART_PNC &gt;6weeks to 6 months</td>
+			<td colspan="3" style="text-align: center;"><input id="AmMHAktSWlU-NhSoXUMPK2K-val" title="AmMHAktSWlU - MOH 731 Start HAART_PNC &gt;6weeks to 6 months - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start HAART_PNC &gt;6weeks to 6 months (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-5">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.5 &nbsp;Retention to PMTCT ARVs (Cohort)</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On maternal HAART_12mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="XM3Veikc3CC-NhSoXUMPK2K-val" title="XM3Veikc3CC - MOH 731 On maternal HAART_12mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On maternal HAART_12mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Net Cohort_12 mths</td>
+			<td colspan="3" style="text-align: center;"><input id="B56oisZ7J7j-NhSoXUMPK2K-val" title="B56oisZ7J7j - MOH 731 Net Cohort_12 mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Net Cohort_12 mths (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-6">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.6 &nbsp;Syphilis Screening</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Syphilis Screened_1st ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="EhPcdfM4W1t-NhSoXUMPK2K-val" title="EhPcdfM4W1t - MOH 731 Syphilis Screened_1st ANC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Syphilis Screened_1st ANC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Syphilis Screened_Positive</td>
+			<td colspan="3" style="text-align: center;"><input id="eZ8dIEUEgy0-NhSoXUMPK2K-val" title="eZ8dIEUEgy0 - MOH 731 Syphilis Screened_Positive - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Syphilis Screened_Positive (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Syphilis_Treated</td>
+			<td colspan="3" style="text-align: center;"><input id="ZV37zimBe3X-NhSoXUMPK2K-val" title="ZV37zimBe3X - MOH 731 Syphilis_Treated - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Syphilis_Treated (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-7">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.7 &nbsp;Family Planning at Postnatal</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>HIV+ On Modern FP_at 6wks</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>HIV+_PNC Visits_at 6wks</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-8">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.8 &nbsp;Male Partner HIV Status</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Known Status_1st Contact</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="USjtT54mGGv-NhSoXUMPK2K-val" title="USjtT54mGGv - MOH 731 Known Status_1st Contact - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Known Status_1st Contact (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Initial test at ANC_Male</td>
+			<td colspan="3" style="text-align: center;"><input id="ZD26RUcF6Mr-NhSoXUMPK2K-val" title="ZD26RUcF6Mr - MOH 731 Initial test at ANC_Male - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial test at ANC_Male (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Initial test at PNC_Male</td>
+			<td colspan="3" style="text-align: center;"><input id="QOXsMQRaKFD-NhSoXUMPK2K-val" title="QOXsMQRaKFD - MOH 731 Initial test at PNC_Male - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial test at PNC_Male (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Total Known Status_Male</td>
+			<td colspan="3" style="text-align: center;"><input id="lmeGJURpCxv-NhSoXUMPK2K-val" title="lmeGJURpCxv - MOH 731 Total Known Status_Male - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Total Known Status_Male (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-9">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.9 &nbsp;Infant HIV Exposure Status at Penta 1</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Known Exposure_at Penta 1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Total Given Penta 1</td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-10">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.10 &nbsp;Infant Prophylaxis</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Infant ARV Prophyl_ANC</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="rZq7EYvEnYn-NhSoXUMPK2K-val" title="rZq7EYvEnYn - MOH 731 Infant ARV Prophyl_ANC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Infant ARV Prophyl_ANC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Infant ARV Prophyl_L&amp;D</td>
+			<td colspan="3" style="text-align: center;"><input id="GkaZyaY4bwG-NhSoXUMPK2K-val" title="GkaZyaY4bwG - MOH 731 Infant ARV Prophyl_L&amp;D - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Infant ARV Prophyl_L&amp;D (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Infant ARV Prophyl&lt;8wks_PNC</td>
+			<td colspan="3" style="text-align: center;"><input id="Ln0mz4MlOGd-NhSoXUMPK2K-val" title="Ln0mz4MlOGd - MOH 731 Infant ARV Prophyl&lt;8wks_PNC - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Infant ARV Prophyl&lt;8wks_PNC (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Total ARV prophylaxis</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>HEI CTX/DDS start_&lt;2months</td>
+			<td colspan="3" style="text-align: center;"><input id="cvzuJw8qBbP-NhSoXUMPK2K-val" title="cvzuJw8qBbP - MOH 731 HEI CTX/DDS start_&lt;2months - NhSoXUMPK2K - (default) - int" value="[ MOH 731 HEI CTX/DDS start_&lt;2months (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-11">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.11&nbsp; Adolescent Testing and results</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>1st ANC KP adolescents (10-19)</td>
+			<td colspan="3" style="text-align: center;"><input id="UKY7loaYrNh-NhSoXUMPK2K-val" title="UKY7loaYrNh - MOH 731 1st ANC KP adolescents (10-19) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 1st ANC KP adolescents (10-19) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Positive result Adolescents_Total</td>
+			<td colspan="3" style="text-align: center;"><input id="gHcqVqcATlz-NhSoXUMPK2K-val" title="gHcqVqcATlz - MOH 731 Positive result Adolescents_Total - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Positive result Adolescents_Total (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Started HAART adolescents_Total</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="AvidvtKRZve-NhSoXUMPK2K-val" title="AvidvtKRZve - MOH 731 Started HAART adolescents_Total - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Started HAART adolescents_Total (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-12">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.12&nbsp;Infant Testing/results of tests 3 months ago</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Initial PCR &lt; 8wks</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="a62qk0ztQ3I-NhSoXUMPK2K-val" title="a62qk0ztQ3I - MOH 731 Initial PCR &lt; 8wks - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial PCR &lt; 8wks (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Initial PCR_&gt;8wks -12 mths</td>
+			<td colspan="3" style="text-align: center;"><input id="bv35IArfbZm-NhSoXUMPK2K-val" title="bv35IArfbZm - MOH 731 Initial PCR &gt;8wks -12 mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial PCR &gt;8wks -12 mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Initial PCR Test&lt;12mths_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Positive PCR_&lt; 8wks</td>
+			<td colspan="3" style="text-align: center;"><input id="XPWsjVE25SE-NhSoXUMPK2K-val" title="XPWsjVE25SE - MOH 731 Initial Positive PCR &lt; 8wks - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial Positive PCR &lt; 8wks (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Positive PCR&gt;8wks _12mths</td>
+			<td colspan="3" style="text-align: center;"><input id="nQT3wdQKl2O-NhSoXUMPK2K-val" title="nQT3wdQKl2O - MOH 731 Initial Positive PCR &gt;8wks -12mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Initial Positive PCR &gt;8wks -12mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Positive Results&lt;12mths_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-13">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.13&nbsp; Programme Outcomes</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Infected_24mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="j8K0xeUm58H-NhSoXUMPK2K-val" title="j8K0xeUm58H - MOH 731 Infected_24mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Infected_24mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Uninfected_24mths</td>
+			<td colspan="3" style="text-align: center;"><input id="sgPoQZVQ0XK-NhSoXUMPK2K-val" title="sgPoQZVQ0XK - MOH 731 Uninfected_24mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Uninfected_24mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Unknown_Outcome</td>
+			<td colspan="3" style="text-align: center;"><input id="qeFNoHWtROs-NhSoXUMPK2K-val" title="qeFNoHWtROs - MOH 731 Unknown_Outcome - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Unknown_Outcome (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Net cohort_HEI_24 months</td>
+			<td colspan="3" style="text-align: center;"><input id="OFNZxJSPwGQ-NhSoXUMPK2K-val" title="OFNZxJSPwGQ - MOH 731 Net cohort_HEI_24 months - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Net cohort_HEI_24 months (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-14">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.14&nbsp; Retention of Baby-Mother Pairs</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Mother-baby pairs_24mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="KjmpCam41En-NhSoXUMPK2K-val" title="KjmpCam41En - MOH 731 Mother-baby pairs_24mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Mother-baby pairs_24mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Pair net cohort_24 months</td>
+			<td colspan="3" style="text-align: center;"><input id="vRiEfHkdGZC-NhSoXUMPK2K-val" title="vRiEfHkdGZC - MOH 731 Pair net cohort_24 months - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Pair net cohort_24 months (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-15">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">2.15&nbsp; Infant Feeding</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>EBF (at 6 months)&nbsp;</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="xiy94PrzIDr-NhSoXUMPK2K-val" title="xiy94PrzIDr - MOH 731 EBF (at 6 months) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 EBF (at 6 months) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>ERF (at 6 months</td>
+			<td colspan="3" style="text-align: center;"><input id="rOBHByzg2DD-NhSoXUMPK2K-val" title="rOBHByzg2DD - MOH 731 ERF (at 6 months) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 ERF (at 6 months) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>MF (at 6 months)</td>
+			<td colspan="3" style="text-align: center;"><input id="Y091pTKmmpR-NhSoXUMPK2K-val" title="Y091pTKmmpR - MOH 731 MF (at 6 months) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 MF (at 6 months) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>BF (12 months)&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="AHqaYv5kYo1-NhSoXUMPK2K-val" title="AHqaYv5kYo1 - MOH 731 BF (at 12 months) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 BF (at 12 months) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Not BF (12 months)</td>
+			<td colspan="3" style="text-align: center;"><input id="u59Va4r4uRu-NhSoXUMPK2K-val" title="u59Va4r4uRu - MOH 731 Not BF (at 12 months) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Not BF (at 12 months) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>BF ( at 18 months)</td>
+			<td colspan="3" style="text-align: center;"><input id="deaYESnT8ok-NhSoXUMPK2K-val" title="deaYESnT8ok - MOH 731 BF ( at 18 months) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 BF ( at 18 months) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Not BF (at 18 months)</td>
+			<td colspan="3" style="text-align: center;"><input id="cnuCJ4kOYD2-NhSoXUMPK2K-val" title="cnuCJ4kOYD2 - MOH 731 Not BF (at 18 months) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Not BF (at 18 months) (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
