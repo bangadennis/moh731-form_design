@@ -1,0 +1,547 @@
+<!-- @author banga  --><script>
+ $(function() {
+    $( "#tabs-left" ).tabs();
+  });
+</script>
+<style type="text/css">#tabs-left {
+	position: relative;
+	padding-left: 18em;
+}
+#tabs-left .ui-tabs-nav {
+	position: absolute;
+	left: 0.25em;
+	top: 0.25em;
+	bottom: 0.25em;
+	width: 24em;
+	padding: 0.2em 0 0.2em 0.2em;
+}
+#tabs-left .ui-tabs-nav li {
+	right: 1px;
+	width: 100%;
+	border-right: none;
+	border-bottom-width: 1px !important;
+	-moz-border-radius: 4px 0px 0px 4px;
+	-webkit-border-radius: 4px 0px 0px 4px;
+	border-radius: 4px 0px 0px 4px;
+	overflow: hidden;
+}
+#tabs-left .ui-tabs-nav li.ui-tabs-selected,
+#tabs-left .ui-tabs-nav li.ui-state-active {
+	border-right: 1px solid transparent;
+}
+#tabs-left .ui-tabs-nav li a {
+	float: left;
+	width: 100%;
+	text-align: left;
+}
+#tabs-left .ui-tabs-panel {
+	display:table;
+    margin-left:10em;
+    height:500px;
+}
+#tabs-left-vertical .ui-tabs-nav {
+	position: absolute;
+	width: 21em;
+	transform: translate(-100%,0%) rotate(-90deg);
+	transform-origin: 100% 0%;
+}
+#tabs-left-vertical .ui-tabs-nav li {
+	float: right;
+}
+#tabs-left-vertical .ui-tabs-panel {
+	padding-left: 3.5em;
+}
+#tabs-left-vertical .ui-tabs-panel {
+	display:table;
+}
+</style>
+<div id="tabs-left">
+<ul>
+	<li><a href="#tabs-1">3.1 Enrolment in Care</a></li>
+	<li><a href="#tabs-2">3.2 Current On Pre ART </a></li>
+	<li><a href="#tabs-3">3.3 Starting ART</a></li>
+	<li><a href="#tabs-4">3.4 Currently on ART ([All])</a></li>
+	<li><a href="#tabs-5">3.5 Retention on ART</a></li>
+	<li><a href="#tabs-6">3.6 On CTX/Dapsone</a></li>
+	<li><a href="#tabs-7">3.7 TB Screening &amp;presumed TB</a></li>
+	<li><a href="#tabs-8">3.8 Starting IPT</a></li>
+	<li><a href="#tabs-9">3.9 Nutrition and HIV</a></li>
+	<li><a href="#tabs-10">3.10 TB in HIV Clinic</a></li>
+	<li><a href="#tabs-11">3.11 Community Dispensing of ARVs</a></li>
+	<li><a href="#tabs-12">3.12 Family planning &amp; CaCx screen</a></li>
+</ul>
+
+<div id="tabs-1">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="10" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.1 Enrolment in Care</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">Enrolled_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="hnCKclzNCmS-NhSoXUMPK2K-val" title="hnCKclzNCmS - MOH 731 Enrolled_&lt;1 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_&lt;1 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2">Enrolled_1-9</td>
+			<td colspan="3" style="text-align: center;"><input id="XWbAFrqCSSd-NhSoXUMPK2K-val" title="XWbAFrqCSSd - MOH 731 Enrolled_1-9 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_1-9 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Enrolled_10-14(M)</td>
+			<td style="text-align: center;"><input id="Ist8klzApwp-NhSoXUMPK2K-val" title="Ist8klzApwp - MOH 731 Enrolled_10-14(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_10-14(M) (default) ]" /></td>
+			<td colspan="2"><span style="line-height: 20.8px;">Enrolled_10-14(F)</span></td>
+			<td style="text-align: center;"><input id="dQFrt2vzRiP-NhSoXUMPK2K-val" title="dQFrt2vzRiP - MOH 731 Enrolled_10-14(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_10-14(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Enrolled_15-19(M)</td>
+			<td style="text-align: center;"><input id="dEV3O6Of4Mw-NhSoXUMPK2K-val" title="dEV3O6Of4Mw - MOH 731 Enrolled_15-19(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_15-19(M) (default) ]" /></td>
+			<td colspan="2">Enrolled_15-19(F)</td>
+			<td style="text-align: center;"><input id="o6MDKWDz6Gy-NhSoXUMPK2K-val" title="o6MDKWDz6Gy - MOH 731 Enrolled_15-19(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_15-19(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Enrolled_20-24(M)</td>
+			<td style="text-align: center;"><input id="u2A4v07dlLc-NhSoXUMPK2K-val" title="u2A4v07dlLc - MOH 731 Enrolled_20-24(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_20-24(M) (default) ]" /></td>
+			<td colspan="2">Enrolled_20-24(F)</td>
+			<td style="text-align: center;"><input id="ukNk4J3XyxY-NhSoXUMPK2K-val" title="ukNk4J3XyxY - MOH 731 Enrolled_20-24(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_20-24(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Enrolled_25+(M)</td>
+			<td style="text-align: center;"><input id="XPgDUcQR6Nr-NhSoXUMPK2K-val" title="XPgDUcQR6Nr - MOH 731 Enrolled_25+(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_25+(M) (default) ]" /></td>
+			<td colspan="2">Enrolled_25+(F)</td>
+			<td style="text-align: center;"><input id="giNnuODYYiu-NhSoXUMPK2K-val" title="giNnuODYYiu - MOH 731 Enrolled_25+(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled_25+(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="1"><strong>Enrolled_Total&nbsp;</strong></td>
+			<td colspan="3" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Enrolled in Care_KeyPop</td>
+			<td colspan="3" style="text-align: center;"><input id="OHak5G0rwFI-NhSoXUMPK2K-val" title="OHak5G0rwFI - MOH 731 Enrolled in Care_KeyPop - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Enrolled in Care_KeyPop (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-2">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="8" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.2 Current On Pre ART</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">In Pre ART_0-14</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="Au9WcYuqrwO-NhSoXUMPK2K-val" title="Au9WcYuqrwO - MOH 731 In Pre ART_0-14 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 In Pre ART_0-14 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2">In Pre ART_15+</td>
+			<td colspan="3" style="text-align: center;"><input id="RKU5MRBI2EH-NhSoXUMPK2K-val" title="RKU5MRBI2EH - MOH 731 In Pre ART_15+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 In Pre ART_15+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2"><strong>In Pre ART_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-3">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="8" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.3 Starting ART</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="Va6ROk0UwYD-NhSoXUMPK2K-val" title="Va6ROk0UwYD - MOH 731 Start ART_&lt;1 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_&lt;1 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_1-9</td>
+			<td colspan="3" style="text-align: center;"><input id="qHG7dthdhe0-NhSoXUMPK2K-val" title="qHG7dthdhe0 - MOH 731 Start ART_1-9 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_1-9 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start ART_10-14(M)</td>
+			<td style="text-align: center;"><input id="XbFsXWbyF7n-NhSoXUMPK2K-val" title="XbFsXWbyF7n - MOH 731 Start ART_10-14(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_10-14(M) (default) ]" /></td>
+			<td colspan="2">Start ART_10-14<span style="line-height: 20.8px;">(F)</span></td>
+			<td style="text-align: center;"><input id="QnuTRCDKtgE-NhSoXUMPK2K-val" title="QnuTRCDKtgE - MOH 731 Start ART_10-14(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_10-14(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start ART_15-19(M)</td>
+			<td style="text-align: center;"><input id="ygNmydcZuQW-NhSoXUMPK2K-val" title="ygNmydcZuQW - MOH 731 Start ART_15-19(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_15-19(M) (default) ]" /></td>
+			<td colspan="2">Start ART_15-19(F)</td>
+			<td style="text-align: center;"><input id="xrP1iRWfECY-NhSoXUMPK2K-val" title="xrP1iRWfECY - MOH 731 Start ART_15-19(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_15-19(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start ART_20-24(M)</td>
+			<td style="text-align: center;"><input id="UzPRlW24DZc-NhSoXUMPK2K-val" title="UzPRlW24DZc - MOH 731 Start ART_20-24(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_20-24(M) (default) ]" /></td>
+			<td colspan="2">Start ART_20-24(F)</td>
+			<td style="text-align: center;"><input id="q1OwrA6tBfJ-NhSoXUMPK2K-val" title="q1OwrA6tBfJ - MOH 731 Start ART_20-24(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_20-24(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start ART_25+(M)</td>
+			<td style="text-align: center;"><input id="At2QKNNJBBT-NhSoXUMPK2K-val" title="At2QKNNJBBT - MOH 731 Start ART_25+(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_25+(M) (default) ]" /></td>
+			<td colspan="2">Start ART_25+(F)</td>
+			<td style="text-align: center;"><input id="cASw97r08A0-NhSoXUMPK2K-val" title="cASw97r08A0 - MOH 731 Start ART_25+(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_25+(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="1"><strong>Start ART_Total&nbsp;</strong></td>
+			<td colspan="3" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">Start ART_KeyPop</td>
+			<td colspan="3" style="text-align: center;"><input id="bNa7HMQLeyJ-NhSoXUMPK2K-val" title="bNa7HMQLeyJ - MOH 731 Start ART_KeyPop - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start ART_KeyPop (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-4">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="8" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.4 Currently on ART ([All])</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">On ART_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="MlycqqnwCXE-NhSoXUMPK2K-val" title="MlycqqnwCXE - MOH 731 On ART_&lt;1 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_&lt;1 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2">On ART_1-9</td>
+			<td colspan="3" style="text-align: center;"><input id="osthoHHL19n-NhSoXUMPK2K-val" title="osthoHHL19n - MOH 731 On ART_1-9 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_1-9 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On ART_10-14(M)</td>
+			<td style="text-align: center;"><input id="CHokE7ard3G-NhSoXUMPK2K-val" title="CHokE7ard3G - MOH 731 On ART_10-14(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_10-14(M) (default) ]" /></td>
+			<td colspan="2">On ART_10-14<span style="line-height: 20.8px;">(F)</span></td>
+			<td style="text-align: center;"><input id="xJeQhApaDBq-NhSoXUMPK2K-val" title="xJeQhApaDBq - MOH 731 On ART_10-14(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_10-14(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On ART_15-19(M)</td>
+			<td style="text-align: center;"><input id="dO1s7aHXfd5-NhSoXUMPK2K-val" title="dO1s7aHXfd5 - MOH 731 On ART_15-19(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_15-19(M) (default) ]" /></td>
+			<td colspan="2">On ART_15-19(F)</td>
+			<td style="text-align: center;"><input id="u5eJOtmEULH-NhSoXUMPK2K-val" title="u5eJOtmEULH - MOH 731 On ART_15-19(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_15-19(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On ART_20-24(M)</td>
+			<td style="text-align: center;"><input id="K3SDOZPmvDP-NhSoXUMPK2K-val" title="K3SDOZPmvDP - MOH 731 On ART_20-24(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_20-24(M) (default) ]" /></td>
+			<td colspan="2">On ART_20-24(F)</td>
+			<td style="text-align: center;"><input id="mQoNNgqt5cB-NhSoXUMPK2K-val" title="mQoNNgqt5cB - MOH 731 On ART_20-24(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_20-24(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On ART_25+(M)</td>
+			<td style="text-align: center;"><input id="xJ4HN0CwZa6-NhSoXUMPK2K-val" title="xJ4HN0CwZa6 - MOH 731 On ART_25+(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_25+(M) (default) ]" /></td>
+			<td colspan="2">On ART_25+(F)</td>
+			<td style="text-align: center;"><input id="tcemzb0f5OJ-NhSoXUMPK2K-val" title="tcemzb0f5OJ - MOH 731 On ART_25+(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_25+(F) (default) ]" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="1"><strong>On ART_Total</strong> &nbsp;</td>
+			<td colspan="3" rowspan="1">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">On ART_KeyPop</td>
+			<td colspan="3" style="text-align: center;"><input id="ET2YWhnFOSk-NhSoXUMPK2K-val" title="ET2YWhnFOSk - MOH 731 On ART_KeyPop - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART_KeyPop (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-5">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.5 Retention on ART</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On ART _12mths</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="X3oEOiTpbpd-NhSoXUMPK2K-val" title="X3oEOiTpbpd - MOH 731 On ART _12mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On ART _12mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Net Cohort_12mths&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="B56oisZ7J7j-NhSoXUMPK2K-val" title="B56oisZ7J7j - MOH 731 Net Cohort_12 mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Net Cohort_12 mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Viral load &lt;1000_12mths</td>
+			<td colspan="3" style="text-align: center;"><input id="oFkxcIAkeau-NhSoXUMPK2K-val" title="oFkxcIAkeau - MOH 731 Viral load &lt;1000_12mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Viral load &lt;1000_12mths (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Viral load result_12mths</td>
+			<td colspan="3" style="text-align: center;"><input id="WQagZDOqGKB-NhSoXUMPK2K-val" title="WQagZDOqGKB - MOH 731 Viral load result_12mths - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Viral load result_12mths (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-6">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.6&nbsp;On CTX/Dapsone</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_&lt;1</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="fXVZ4xqN7h2-NhSoXUMPK2K-val" title="fXVZ4xqN7h2 - MOH 731 On CTX/DDS_&lt;1 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On CTX/DDS_&lt;1 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_1-9</td>
+			<td colspan="3" style="text-align: center;"><input id="CVlepnEg3Lk-NhSoXUMPK2K-val" title="CVlepnEg3Lk - MOH 731 On CTX/DDS_1-9 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On CTX/DDS_1-9 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_10-14</td>
+			<td colspan="3" style="text-align: center;"><input id="ssz53kZyjP4-NhSoXUMPK2K-val" title="ssz53kZyjP4 - MOH 731 On CTX/DDS_10-14 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On CTX/DDS_10-14 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_15-19</td>
+			<td colspan="3" style="text-align: center;"><input id="a95eWL8t5A3-NhSoXUMPK2K-val" title="a95eWL8t5A3 - MOH 731 On CTX/DDS_15-19 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On CTX/DDS_15-19 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_20-24&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="e9WFAHefZc7-NhSoXUMPK2K-val" title="e9WFAHefZc7 - MOH 731 On CTX/DDS_20-24 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On CTX/DDS_20-24 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On CTX/DDS_25+</td>
+			<td colspan="3" style="text-align: center;"><input id="uCoUz6MV6CJ-NhSoXUMPK2K-val" title="uCoUz6MV6CJ - MOH 731 On CTX/DDS_25+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On CTX/DDS_25+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>On CTX/DDS_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-7">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.7&nbsp;TB Screening</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Screen for TB_&lt;1&nbsp;</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="rkYycCpqH9L-NhSoXUMPK2K-val" title="rkYycCpqH9L - MOH 731 Screen for TB_&lt;1 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Screen for TB_&lt;1 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Screen for TB _1-9&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="ubqWrHXPx1o-NhSoXUMPK2K-val" title="ubqWrHXPx1o - MOH 731 Screen for TB _1-9 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Screen for TB _1-9 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Screen for TB _10-14&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="LWhFMp9kFJu-NhSoXUMPK2K-val" title="LWhFMp9kFJu - MOH 731 Screen for TB _10-14 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Screen for TB _10-14 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Screen for TB _15-19&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="wiSa3PVF4wG-NhSoXUMPK2K-val" title="wiSa3PVF4wG - MOH 731 Screen for TB _15-19 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Screen for TB _15-19 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Screen for TB _20-24&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="yWqxm52ME9B-NhSoXUMPK2K-val" title="yWqxm52ME9B - MOH 731 Screen for TB _20-24 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Screen for TB _20-24 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Screen for TB _25+&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="XR4xz92EIlO-NhSoXUMPK2K-val" title="XR4xz92EIlO - MOH 731 Screen for TB _25+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Screen for TB _25+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Screen for TB_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Presumed TB_Total</td>
+			<td colspan="3" style="text-align: center;"><input id="pqjDM4GW5NW-NhSoXUMPK2K-val" title="pqjDM4GW5NW - MOH 731 Presumed TB_Total - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Presumed TB_Total (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-8">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.8&nbsp;Starting IPT</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Start IPT_&lt;1&nbsp;</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="WKfDaBT3arb-NhSoXUMPK2K-val" title="WKfDaBT3arb - MOH 731 Start IPT_&lt;1 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start IPT_&lt;1 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start IPT _1-9&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="hqkPhGH6lRP-NhSoXUMPK2K-val" title="hqkPhGH6lRP - MOH 731 Start IPT _1-9 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start IPT _1-9 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start IPT _10-14&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="nI8tgezaXPo-NhSoXUMPK2K-val" title="nI8tgezaXPo - MOH 731 Start IPT _10-14 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start IPT _10-14 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start IPT _15-19&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="tF7WZoad1Ua-NhSoXUMPK2K-val" title="tF7WZoad1Ua - MOH 731 Start IPT _15-19 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start IPT _15-19 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start IPT _20-24&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="SGmS1IQFGpT-NhSoXUMPK2K-val" title="SGmS1IQFGpT - MOH 731 Start IPT _20-24 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start IPT _20-24 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Start IPT _25+&nbsp;</td>
+			<td colspan="3" style="text-align: center;"><input id="KtuTEqeSVwB-NhSoXUMPK2K-val" title="KtuTEqeSVwB - MOH 731 Start IPT _25+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Start IPT _25+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Start IPT_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Completed IPT_12months</td>
+			<td colspan="3" style="text-align: center;"><input id="AKLlMrWGb3G-NhSoXUMPK2K-val" title="AKLlMrWGb3G - MOH 731 Completed IPT_12months - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Completed IPT_12months (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-9">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.9&nbsp;Nutrition and HIV</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Nutrition Assess_&lt;15</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="QlqLeMXZne4-NhSoXUMPK2K-val" title="QlqLeMXZne4 - MOH 731 Nutrition Assess_&lt;15 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Nutrition Assess_&lt;15 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Nutrition Assess _15+</td>
+			<td colspan="3" style="text-align: center;"><input id="rTCwuWZ3Hps-NhSoXUMPK2K-val" title="rTCwuWZ3Hps - MOH 731 Nutrition Assess _15+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Nutrition Assess _15+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Nutrition Assess_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>Malnourished_&lt;15</td>
+			<td colspan="3" style="text-align: center;"><input id="YDi6s28qk3T-NhSoXUMPK2K-val" title="YDi6s28qk3T - MOH 731 Malnourished_&lt;15 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Malnourished_&lt;15 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Malnourished_15+</td>
+			<td colspan="3" style="text-align: center;"><input id="Xef10hiJtux-NhSoXUMPK2K-val" title="Xef10hiJtux - MOH 731 Malnourished_15+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Malnourished_15+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>Malnourished_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>FBP Provided_&lt;15</td>
+			<td colspan="3" style="text-align: center;"><input id="zkjnDYuX5Yr-NhSoXUMPK2K-val" title="zkjnDYuX5Yr - MOH 731 FBP Provided_&lt;15 - NhSoXUMPK2K - (default) - int" value="[ MOH 731 FBP Provided_&lt;15 (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>FBP Provided_15+</td>
+			<td colspan="3" style="text-align: center;"><input id="jxB120X8fyW-NhSoXUMPK2K-val" title="jxB120X8fyW - MOH 731 FBP Provided_15+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 FBP Provided_15+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>FBP Provided_Total</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-10">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.10&nbsp;TB in HIV Clinic</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>TB cases _New</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="tcafbqV4V89-NhSoXUMPK2K-val" title="tcafbqV4V89 - MOH 731 TB cases _New - NhSoXUMPK2K - (default) - int" value="[ MOH 731 TB cases _New (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>TB Cases _KP</td>
+			<td colspan="3" style="text-align: center;"><input id="Ra2ODRkbvuP-NhSoXUMPK2K-val" title="Ra2ODRkbvuP - MOH 731 TB Cases _KP - NhSoXUMPK2K - (default) - int" value="[ MOH 731 TB Cases _KP (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>TB Cases Tested_HIV</td>
+			<td colspan="3" style="text-align: center;"><input id="lgfqPxxhdyY-NhSoXUMPK2K-val" title="lgfqPxxhdyY - MOH 731 TB Cases Tested_HIV - NhSoXUMPK2K - (default) - int" value="[ MOH 731 TB Cases Tested_HIV (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>TB_Known status</td>
+			<td colspan="3" style="text-align: center;"><input id="hLA8GSkV31p-NhSoXUMPK2K-val" title="hLA8GSkV31p - MOH 731 TB_Known status - NhSoXUMPK2K - (default) - int" value="[ MOH 731 TB_Known status (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>TB_New HIV Positive</td>
+			<td colspan="3" style="text-align: center;"><input id="Q7cpblatvaW-NhSoXUMPK2K-val" title="Q7cpblatvaW - MOH 731 TB_New HIV Positive - NhSoXUMPK2K - (default) - int" value="[ MOH 731 TB_New HIV Positive (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>TB_TOTAL HIV Positive&nbsp;</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>TB_already on HAART</td>
+			<td colspan="3" style="text-align: center;"><input id="dpZ0c0KXLnO-NhSoXUMPK2K-val" title="dpZ0c0KXLnO - MOH 731 TB_already on HAART - NhSoXUMPK2K - (default) - int" value="[ MOH 731 TB_already on HAART (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>TB_start_HAART</td>
+			<td colspan="3" style="text-align: center;"><input id="Y6gzxyybKrF-NhSoXUMPK2K-val" title="Y6gzxyybKrF - MOH 731 TB_start_HAART - NhSoXUMPK2K - (default) - int" value="[ MOH 731 TB_start_HAART (default) ]" /></td>
+		</tr>
+		<tr>
+			<td><strong>TB_Total on HAART</strong></td>
+			<td colspan="3" style="text-align: center;">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-11">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="5" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.11&nbsp;Community Dispensing of ARVs</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Community ART current(M)</td>
+			<td style="text-align: center;"><input id="FjIae5rHXpK-NhSoXUMPK2K-val" title="FjIae5rHXpK - MOH 731 Community ART current(M) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Community ART current(M) (default) ]" /></td>
+			<td colspan="2"><span style="line-height: 20.8px;">Community ART current(F)</span></td>
+			<td style="text-align: center;"><input id="nijr74e0Vhr-NhSoXUMPK2K-val" title="nijr74e0Vhr - MOH 731 Community ART current(F) - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Community ART current(F) (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<div id="tabs-12">
+<table border="1" cellpadding="1" cellspacing="1" style="width:650px;">
+	<tbody>
+		<tr>
+			<td colspan="4" style="background-color: rgb(0, 102, 204);">
+			<h2 style="text-align: center;"><span style="color:#FFFFFF;">3.12&nbsp;Family planning &amp; CaCx screen in HIV CCC</span></h2>
+			</td>
+		</tr>
+		<tr>
+			<td>Screen CaCx_New F18+</td>
+			<td colspan="3" rowspan="1" style="text-align: center;"><input id="iPUaHJho1QN-NhSoXUMPK2K-val" title="iPUaHJho1QN - MOH 731 Screen CaCx_New F18+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Screen CaCx_New F18+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>On modern FP _F15+</td>
+			<td colspan="3" style="text-align: center;"><input id="PtVJ4ITZT9e-NhSoXUMPK2K-val" title="PtVJ4ITZT9e - MOH 731 On modern FP _F15+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 On modern FP _F15+ (default) ]" /></td>
+		</tr>
+		<tr>
+			<td>Clinical visits_F18+</td>
+			<td colspan="3" style="text-align: center;"><input id="ck9yAYGEb23-NhSoXUMPK2K-val" title="ck9yAYGEb23 - MOH 731 Clinical visits_F18+ - NhSoXUMPK2K - (default) - int" value="[ MOH 731 Clinical visits_F18+ (default) ]" /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
